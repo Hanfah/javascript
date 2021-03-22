@@ -1,15 +1,18 @@
-//write a javascript function that checks whether a passed string is 
-// palindrome or not? 
+let word = 'mom';
 
-    function Ispalindrome (word) {
-	let len = word.length;
-	let start = word.substring(0, Math.floor(len / 2)).toLowerCase();
-	let end = word.substring(len - Math.floor(len / 2)).toLowerCase();
+function isItPalindrome(paramStr){
+	//split it
+	let splittedReversedJoined = paramStr.split('')
+	//reverse it 
+	.reverse()
+	//join it
+	.join('')
+	//compare it with param
+	if(splittedReversedJoined === paramStr) return true;
+	return false;
 
-	let flip = end.split('').reverse().join('');
-	return (start === flip);
 }
 
-console.log(Ispalindrome('radar'));
-console.log(Ispalindrome('redder'));
-console.log(Ispalindrome('window'));
+
+
+console.log(isItPalindrome(word))
