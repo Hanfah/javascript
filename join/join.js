@@ -2,7 +2,7 @@
 // elements of the following array into a string
 
 //create a function
-function myFunction(join){
+function myFunction(joined){
 	// create a variable of an array
 	var fruites = ["banana", "young", "tired", "tired", "silly"];
 	//use the join method to join the array like a string
