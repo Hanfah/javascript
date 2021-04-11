@@ -1,16 +1,19 @@
 //write a javascript program to join all
 // elements of the following array into a string
 
-//create a function
-function myFunction(joined){
-	// create a variable of an array
-	var fruites = ["banana", "young", "tired", "tired", "silly"];
-	//use the join method to join the array like a string
-   var joined = fruites.join();
-   //use the console.log so we can see this in the outcome printed in the
-   //console
-   console.log(joined);
 
+/*
+turn the array of elements in the string
+step 1. define a function that will take in an array
+step 2. turn the array into a string
+step 3. return the string
+step 4. excetute the function
+
+*/
+
+function turnArrayToString(array){
+	return array.join();
+	
 }
-//execute the function
-myFunction();
+var arrayOfNames = ["adam", "harry", "tj", "enginer"];
+turnArrayToString(arrayOfNames)
