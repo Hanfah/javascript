@@ -9,10 +9,12 @@
 //step 4. execute the function in a console.log in order
 //for the coder to see the printed results
 
-var shopping = ("jog", "book", "iron");
+var phone = {model: "motorola", color: "red", camera: "50mp"};
 
-function lengthOfList(object){
-	return shopping.length;
+function howManyinLength (object){
+	
+console.log(Object.keys(phone).length);
+
 }
 
-console.log(lengthOfList());
+howManyinLength();
