@@ -14,7 +14,7 @@ var Students = {
 
 };
 
-function deleteAProperty(obj){
+function deleteAProperty(Students){
 	delete Students["Level"];
 	return Students;
 
