@@ -11,9 +11,9 @@ var myFruits = ["oranges", "peach", "pinaple", "Apples", "Plum"];
 
 
 function sortFruits (array){
-	return myFruits.sort();
-	
+	myFruits.sort();
+	return myFruits;
 
 }
 
-document.write(sortFruits(myFruits));
+console.log(sortFruits());
