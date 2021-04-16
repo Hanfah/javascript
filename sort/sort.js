@@ -17,10 +17,11 @@ var myFruits = ["oranges", "peach", "pinaple", "Apples", "Plum"];
 console.log(sortFruits(myFruits))*/
 var myFruits = ["Oranges", "Peach", "Pinapple", "Apple", "Plum"];
 function sortFruits (array){
-	return array.sort(function(a, b){
-		return a.toLowerCase() - b.toLowerCase()
-	});
-
-	}
-
-console.log(sortFruits(myFruits));
+  //first sort the array
+  return myFruits.sort();
+  //then reverse the array
+  return myFruits.reverse();
+  
+  }
+  
+  console.log(sortFruits());
