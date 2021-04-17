@@ -15,13 +15,9 @@ return array.sort(function(a, b){
 var myFruits = ["oranges", "peach", "pinaple", "Apples", "Plum"];
 //when we call the function, we have to actually pass information to it
 console.log(sortFruits(myFruits))*/
-var myFruits = ["Oranges", "Peach", "Pinapple", "Apple", "Plum"];
-function sortFruits (array){
-  //first sort the array
-  return myFruits.sort();
-  //then reverse the array
-  return myFruits.reverse();
-  
-  }
-  
-  console.log(sortFruits());
+var myFruits = ["peach", "pair", "apple", "plum", "oranges"];
+function sortArray (array){
+  return array.sort();
+}
+
+console.log(sortArray(myFruits));
