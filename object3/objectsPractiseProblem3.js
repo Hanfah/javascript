@@ -11,7 +11,7 @@
 
 var phone = {model: "motorola", color: "red", camera: "50mp"};
 
-function howManyinLength (object){
+function howManyinLength (phone){
 
 return Object.keys(phone).length;	
 
