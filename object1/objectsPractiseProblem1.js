@@ -16,7 +16,7 @@ var Students = {
 
 function deleteAProperty(delete_level){
 	delete delete_level["Level"];
-	return Students;
+	return delete_level;
 
 }
 console.log(deleteAProperty(Students));
