@@ -29,8 +29,11 @@ Age: 30
 }
 ]
 
+function showFirstAndLastName(map){
 var firstAndLastName = People.map(People=>{
-	return (People.FirstName + " " + People.LastName);
-});
+return (People.FirstName + " " + People.LastName);
 
-console.log(firstAndLastName);
+
+};
+
+console.log(showFirstAndLastName(People));
