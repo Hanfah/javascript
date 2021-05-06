@@ -9,6 +9,8 @@ life.addEventListener('click', onClick);
 
 function onClick(){
 	life.style.background = "red";
+	precious.style.background = "pink";
+	like.style.background = "purple";
 	
 
 }
