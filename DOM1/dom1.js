@@ -5,7 +5,7 @@
 //when a visitor clicks on the paragraph it will play a function
 // declare a function
 //set a background color to the paragraph id
-life.addEventListener('click', onClick);
+button.addEventListener('click', onClick);
 
 function onClick(){
 	life.style.background = "red";
