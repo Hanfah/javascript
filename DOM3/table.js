@@ -1,5 +1,8 @@
 var btn = document.getElementById("Enter");
 btn.addEventListener("click", addDataToTable);
+var remove = document.getElementById("remove");
+remove.addEventListener("click", removeData);
+
 
 var row = 1;
 
@@ -34,3 +37,14 @@ function addDataToTable(){
     //add rows to the table
 	row ++;
 }
+
+//remove the row that is filled in by the user
+function removeData(){
+	//delete row at position 1
+	//why position 1
+	//because when the user adds his or her infomation, the row of data will automatilly go on
+	//position 1 of the table
+	table.deleteRow(1);
+
+}
+
