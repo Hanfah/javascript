@@ -40,11 +40,11 @@ function addDataToTable(){
 
 //remove the row that is filled in by the user
 function removeData(){
-	//delete row at position 1
-	//why position 1
-	//because when the user adds his or her infomation, the row of data will automatilly go on
-	//position 1 of the table
-	table.deleteRow(1);
+	document.getElementById('name').value = '';
+	document.getElementById('age').value = '';
+	document.getElementById('salary').value = '';
+	document.getElementById('city').value = '';
+	document.getElementById('bedrooms').value = '';
+
 
 }
-
