@@ -14,8 +14,7 @@ function joinAll(array){
 	//convert the array into a string
 	array.toString("");
 	//join the array
-	array.join("");
-	//return the array
+	
 	return array;
 }
 
