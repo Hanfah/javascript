@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+	border-style: solid;
+	border-color: orange;
+	border-width: 50px;
+
+}
+
+h1{
+	color: red;
+	font-size: 100px;
+	
+}
+
+.number{
+	color: red;
+	font-size: 50%;
+
+}
+
+button{
+	width: 100px;
+	color: white;
+	background: black;
+	text-align: center;
+}
+
+.count{
+	font-size: 100px;
+}
